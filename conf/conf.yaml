@@ -1,0 +1,19 @@
+Data_setup:
+  path: C:\Users\wanglab\Desktop\Zhe-chen\EBS1_B2SD\data_allp
+  data_file: data_allp.npz
+  subjects: [13, 14, 15]
+  n_channels: 62
+
+NN_setup:
+  n_rnn_layers: 3
+  rnn_dim: 256
+  dropout: 0.2
+
+Training_setup:
+  n_folds: 10
+  learning_rate: 0.001 # 1e-3
+  batch_size: 8
+  epochs: 150
+
+Testing_setup:
+  save_model: True
