@@ -1,2 +1,2 @@
-# Brain-to-speech decoder
+# Brain-to-speech decoder: speech envelope decoding
 Research project that compares models for reconstructing low-frequency amplitude envelopes from English listeners' electroencephalographic (EEG) signals while listening to an English audiobook. Data are from [Reetzke, Gnanateja, and Chandrasekaran (2021)](https://doi.org/10.1016/j.bandl.2020.104891). This research compares the envelope decoding performance (as measured by Pearson correlation) of the [multivariate temporal response function (mTRF)](https://doi.org/10.3389/fnhum.2016.00604) and an LSTM-based deep neural network (DNN) model. This reposoitory contains the code for the DNN model.
